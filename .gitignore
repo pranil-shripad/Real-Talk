@@ -1,0 +1,49 @@
+cat << 'EOF' > .gitignore
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env
+.env.*
+
+# Dataset and large files
+data/
+speaker_db/
+features/
+
+# Training outputs
+checkpoints/
+models/
+
+# Logs
+logs/
+
+# Realtime temp files
+realtime/
+
+# Audio files
+*.wav
+*.mp3
+*.flac
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Temporary files
+*.tmp
+*.log
+
+EOF
